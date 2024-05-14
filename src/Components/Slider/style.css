@@ -1,0 +1,27 @@
+.slider-item {
+  height: 300px;
+  /* background-color: rebeccapurple; */
+}
+.slider-item > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.slider-item2 {
+  height: 300px;
+}
+.slider-item2 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.prevBtn {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  z-index: 999;
+}
+.slide-count {
+  text-align: center;
+}

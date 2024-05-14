@@ -1,0 +1,66 @@
+.listItems {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  /* gap: 20;   */
+}
+.logoImage {
+  height: 40px;
+  width: 60px;
+}
+.listItems > div > ul > li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.listItems > div > ul > li > h6 {
+  font-size: 14px;
+}
+.listItems > ul {
+  margin-left: 10px;
+  font-weight: 200;
+}
+.logo {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -115px; */
+  width: 20%;
+}
+
+.innerwrap {
+  display: flex;
+  align-items: center;
+}
+
+.footerWraper {
+  display: flex;
+  width: 100%;
+  background-color: rgb(52, 52, 52);
+  color: #fff;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+@media screen and (max-width: 680px) {
+  .listItems {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+  }
+  .footerWraper {
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    display: block;
+    margin: auto;
+  }
+
+  .listItems > div > ul > li {
+    list-style-type: circle;
+  }
+}

@@ -1,0 +1,27 @@
+.dropDown {
+  width: 140px;
+  height: 40px;
+  font-size: 17px;
+  background-color: gray;
+  color: #fff;
+  margin: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: none;
+}
+.options {
+  margin-left: 20px;
+}
+.red-dropdown {
+  background-color: red;
+}
+.primary-dropdown {
+  background-color: paleturquoise;
+}
+.success-dropdown {
+  background-color: green;
+}
+.green-dropDown {
+  background-color: #37bc9b;
+  color: black;
+}

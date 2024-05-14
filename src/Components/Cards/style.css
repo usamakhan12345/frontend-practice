@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.first-card,
+.second-card {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 150px;
+}
+.first-card > .card-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.second-card > .card-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-subHeading {
+  margin: 0px;
+}
