@@ -3,7 +3,8 @@
   margin-top: 18px;
   /* width: 100%; */
   justify-content: space-between;
-  flex-wrap: wrap;
+
+  /* flex-wrap: wrap; */
 
   /* flex-wrap: wrap; */
 
@@ -44,4 +45,15 @@ textarea {
 .btn-container {
   display: flex !important;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 460px) {
+  .form-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .input-container {
+    margin-top: 10px;
+    width: 100%;
+  }
 }

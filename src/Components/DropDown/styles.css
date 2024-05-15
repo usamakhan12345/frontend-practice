@@ -25,3 +25,10 @@
   background-color: #37bc9b;
   color: black;
 }
+
+@media screen and (max-width: 460px) {
+  .dropDown {
+    width: 100%;
+    margin: 10px 3px;
+  }
+}

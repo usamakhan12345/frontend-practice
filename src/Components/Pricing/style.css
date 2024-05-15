@@ -1,3 +1,8 @@
+.pricing-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .price-container {
   min-height: 250px;
   width: 361px;
@@ -52,4 +57,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 460px) {
+  .price-container,
+  .Price,
+  .unlimited,
+  .buy-now-btn {
+    width: 100%;
+  }
 }

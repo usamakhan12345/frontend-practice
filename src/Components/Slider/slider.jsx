@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,11 +22,13 @@ function SamplePrevArrow(props) {
 }
 
 export default function SimpleSlider() {
+  const [currSLide, setCurrSlide] = useState();
   const totalSlides = 5;
   const handleBeforeChange = (prev, next) => {
     console.log("prev->", prev);
     console.log("next->", next);
     const currentSlideNumnber = totalSlides - (next + 1);
+    setCurrSlide(next + 1);
     console.log("currentSlideNumnber", currentSlideNumnber);
   };
   var settings = {
@@ -71,7 +73,7 @@ export default function SimpleSlider() {
       </Slider>
       <h4 className="slide-count">
         {" "}
-        {4} OF {6}
+        {currSLide} OF {6}
       </h4>
     </>
   );

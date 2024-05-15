@@ -9,11 +9,11 @@ const FormModal = () => {
         Feel free to contact us for any issue you might have with our products
       </p>
       <div className="form-container">
-        <div>
+        <div className="input-container">
           <label>Name</label>
           <input placeholder="Name" type="text" />
         </div>
-        <div>
+        <div className="input-container">
           <label>Email</label>
           <input placeholder="Email" type="text" />
         </div>

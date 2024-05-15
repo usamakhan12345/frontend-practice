@@ -60,12 +60,20 @@
   color: whitesmoke;
 }
 
-@media screen and (max-width: 680px) {
-  .lists-container {
+.list-container1 > ul > li > p {
+  padding: 10px 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .lists-container,
+  .list-container1 {
     width: 100%;
   }
   .lists-container > ul > li {
     width: 100%;
     flex-direction: column;
+  }
+  .list-container1 > ul > li > p {
+    padding: 10px 2px;
   }
 }

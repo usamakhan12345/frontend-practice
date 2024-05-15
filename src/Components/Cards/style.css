@@ -12,14 +12,53 @@
 }
 .first-card > .card-image {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+
+  height: 300px;
 }
 
 .second-card > .card-image {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  height: 300px;
 }
 
 .card-subHeading {
   margin: 0px;
+}
+
+.second-card > h3 {
+  margin: 22px 0px;
+
+  text-align: left;
+}
+h3 {
+  margin: 22px 0px;
+}
+.slick-dots {
+  bottom: 0px !important;
+}
+.slick-next {
+  right: 14px !important;
+  font-size: 33px !important;
+  /* color: blue !important; */
+  /* background-color: blue !important; */
+}
+.slick-prev {
+  left: 5px !important;
+  z-index: 1111 !important;
+  font-size: 33px !important;
+}
+.slick-arrow {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .first-card,
+  .second-card {
+    width: 100%;
+  }
+  .card-image {
+    width: 100%;
+  }
 }

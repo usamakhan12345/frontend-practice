@@ -40,15 +40,25 @@
   background-color: rgb(52, 52, 52);
   color: #fff;
   margin-top: 50px;
-  padding: 50px;
+  padding: 55px;
+}
+.footer-container {
+  width: 100%;
+  background-color: rgb(52, 52, 52);
+}
+.copy-right-container {
+  margin-bottom: 20px;
+}
+.copy-right {
+  text-align: center;
+  color: #fff;
+  padding: 41px 0px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
   .listItems {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* align-content: center; */
   }
   .footerWraper {
     flex-direction: column;
@@ -59,7 +69,9 @@
     display: block;
     margin: auto;
   }
-
+  .first-list {
+    flex-basis: 50%;
+  }
   .listItems > div > ul > li {
     list-style-type: circle;
   }
